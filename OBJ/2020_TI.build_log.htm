@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 2 8613943, HP Inc., LIC=YA39H-WBIT8-LQT0Q-N4J0Q-XVRYY-9H1VN
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  D:\keil5_mdk\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+D:\于某人的项目比赛\2020电赛\备赛\2020电赛测试程序 - ZET6V3 - 副本\USER\2020_TI.uvprojx
+Project File Date:  10/01/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\keil5_mdk\ARM\ARMCC\Bin'
+Build target '2020_TI'
+compiling main.c...
+main.c(94): warning:  #177-D: variable "result" was declared but never referenced
+  	u16 result;         	//????ADS1115?谋?量
+main.c(95): warning:  #177-D: variable "result_val" was declared but never referenced
+  	float result_val;
+main.c(97): warning:  #177-D: variable "adcx" was declared but never referenced
+  	u16 adcx;           	//????MCU_ADC?谋?量
+main.c(99): warning:  #177-D: variable "len" was declared but never referenced
+  	u16 len,t;          	//???诖?4?谋?量
+main.c(99): warning:  #177-D: variable "t" was declared but never referenced
+  	u16 len,t;          	//???诖?4?谋?量
+main.c(101): warning:  #177-D: variable "key" was declared but never referenced
+  	u8 key;             	//???诎醇谋?量
+main.c(103): warning:  #177-D: variable "test_flag" was declared but never referenced
+  	u8 test_flag = 0;   	//??????选?癜醇?
+main.c(105): warning:  #177-D: variable "temp" was declared but never referenced
+  	float temp;         	//LMT70?露缺?量
+main.c(107): warning:  #177-D: variable "dtbuf" was declared but never referenced
+  	u8 dtbuf[50];       	//OELD?址???示缓?? 
+main.c(109): warning:  #177-D: variable "pwm" was declared but never referenced
+  	u16 pwm = 1500;     	//?婊??票?量   0-180??  500-2500
+main.c(115): warning:  #177-D: variable "aa" was declared but never referenced
+    char aa[10];
+main.c(117): warning:  #177-D: variable "temp1" was declared but never referenced
+    float temp1;
+main.c: 12 warnings, 0 errors
+linking...
+Program Size: Code=44336 RO-data=6416 RW-data=104 ZI-data=1664  
+FromELF: creating hex file...
+"..\OBJ\2020_TI.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\于某人的项目比赛\2020电赛\备赛\2020电赛测试程序 - ZET6V3 - 副本\USER\RTE
+  D:\keil5_mdk\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
